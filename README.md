@@ -12,3 +12,5 @@ STEPS:-
 3-"review" contains 5 columns:-"id","user_id","review","username","date".
 4-"images" contains 5 columns:-"id","user_id","images","thumbnail","watermark".
 5-Enjoy.
+Newer  version of the project available.
+V3-<a href="https://github.com/sameersingh95/PHP-Website-Using-Bootstrap">Version3</a>
