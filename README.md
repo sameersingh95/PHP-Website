@@ -4,7 +4,7 @@ It contains captcha , google login and a little bit of bot security, guest login
 Forgot username and forgot password features are also available.
 People can send mail to the website owner regarding their query as well.
 You can upload pics and thumbnail and watermarked images will be uploaded.
-You can edit details of your account as well. Front end-HTML and CSS Back end -PHP
+You can edit details of your account as well. Front end-HTML,CSS Back end -PHP and Javascript
 
 STEPS:-
 1-You need to create a database "tutorials" and form 3 tables namely, "users","review" and "images".
