@@ -12,3 +12,11 @@ STEPS:-
 3-"review" contains 5 columns:-"id","user_id","review","username","date".
 4-"images" contains 5 columns:-"id","user_id","images","thumbnail","watermark".
 5-Enjoy.
+<html>
+<head>
+<title>HTML TUTORIALS</title>
+<div align="center"><a href="index.php">Link</a></div>
+<div><?php include 'color.php';?></div>
+<div><?php include 'me1.php';?></div>
+</head>
+</html>
