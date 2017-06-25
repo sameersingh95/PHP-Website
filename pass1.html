@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="signanimate.css">
+</head>
+<body>
+<div >
+<center><h1>Password Change
+</h1></center>
+<form name="f1" method="POST" action="pass.php">
+<fieldset>
+<legend>Enter Details
+</legend>
+<center>
+<table cellspacing="15"><tr><td>
+<tr><td><input type="password" name="pass1" value placeholder="Password"/></td></tr>
+<tr><td><input type="password" name="npass" pattern="(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{5,15}" required title="Invalid Password, password must contain 5 to 15 characters which contain at least one numeric digit and a special character" value placeholder="New-Password"/></td></tr>
+<tr><td><input type="password" name="rnpass" pattern="(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{5,15}" required title="Invalid Password, password must contain 5 to 15 characters which contain at least one numeric digit and a special character" value placeholder="Repeat-Password"/></td></tr>
+<tr><td>&nbsp<input type="submit" name="submit" value="Change Password"/></td>
+<td><input type="reset" value="Reset" /></td></tr>
+</table>
+<br/>
+
+</center>
+</fieldset>
+</form>
+</div>
+</body>
+</html>

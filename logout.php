@@ -1,0 +1,13 @@
+<?php
+session_start();
+unset($_SESSION["user_id"]);
+unset($_SESSION["pass"]);
+unset($_SESSION["email"]);
+unset($_SESSION["user"]);
+unset($_SESSION["name"]);
+unset($_SESSION["dob"]);
+unset($_SESSION["mobile"]);
+session_destroy();
+session_unset();
+header("location:index.php");
+?>

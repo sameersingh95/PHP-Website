@@ -1,0 +1,1 @@
+ <div style="float: right"><?php include'search.php'?></div>
