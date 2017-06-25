@@ -1,0 +1,16 @@
+div{padding-left:35%;
+	padding-right:35%;
+	padding-top:5%;
+}
+body{background-image:url("8.jpg");
+	background-attachment:fixed;
+	font-family:verdana;
+}
+a:link{
+	text-decoration:none;
+	color:green;
+}
+a:visited{
+	text-decoration:none;
+	color:orange;
+}
